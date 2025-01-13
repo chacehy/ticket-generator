@@ -1,14 +1,13 @@
 import { useState } from 'react'
-import './index.css'
-import Navbar from './components/NavBar'
-import Form from './components/Form'
-
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import Form from './components/ui/ticketForm.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Form></Form>
+    <Form/>
     </>
   )
 }
