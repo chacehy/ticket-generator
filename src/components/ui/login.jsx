@@ -11,19 +11,26 @@ import patternSquigleBot from "../../../assets/images/pattern-squiggly-line-bott
 const Login = () => {
   return (
     <div
-      className="w-screen min-h-screen flex flex-col items-center justify-center"
-      style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover' }}
+      className="w-screen h-[1100px] flex flex-col items-center justify-center"
+      style={{ backgroundImage: `url(${bgImage})`, backgroundSize: "cover" }}
     >
-      <div className="absolute right-[8rem] bottom-[11.25rem]">
+      <div className="absolute right-[16rem] bottom-[22.25rem]">
         <img src={patternCircle} alt="meow" />
       </div>
-      <div className="absolute h-screen overflow-hidden">
+      <div className="absolute top-0">
         <img src={patternLines} alt="meow" />
       </div>
-      <div>
-        <img src= alt="meow"></img>
+      <div className="absolute top-[5rem] right-[-1rem]">
+        <img src={patternSquigleTop} alt="meow"></img>
+      </div>
+      <div className="absolute left-[2rem] top-[-5.75rem]">
+        <img src={patternCircle} alt="meow" />
+      </div>
+      <div className="absolute bottom-0 left-0">
+        <img src={patternSquigleBot} alt="meow" />
       </div>
     </div>
+
   );
 };
 

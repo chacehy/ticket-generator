@@ -592,12 +592,40 @@ video {
   position: absolute;
 }
 
-.bottom-\[11\.25rem\] {
-  bottom: 11.25rem;
+.bottom-0 {
+  bottom: 0px;
 }
 
-.right-\[8rem\] {
-  right: 8rem;
+.bottom-\[22\.25rem\] {
+  bottom: 22.25rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.left-\[2rem\] {
+  left: 2rem;
+}
+
+.right-\[-1rem\] {
+  right: -1rem;
+}
+
+.right-\[16rem\] {
+  right: 16rem;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-\[-5\.75rem\] {
+  top: -5.75rem;
+}
+
+.top-\[5rem\] {
+  top: 5rem;
 }
 
 .flex {
@@ -608,20 +636,8 @@ video {
   display: inline-flex;
 }
 
-.h-\[inherit\] {
-  height: inherit;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
-.min-h-screen {
-  min-height: 100vh;
+.h-\[1100px\] {
+  height: 1100px;
 }
 
 .w-screen {
@@ -638,8 +654,4 @@ video {
 
 .justify-center {
   justify-content: center;
-}
-
-.overflow-hidden {
-  overflow: hidden;
 }

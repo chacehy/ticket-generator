@@ -15,7 +15,9 @@ function App() {
   const {toggleColorMode} = useColorMode()
   return (
     <>
-    <Login/>
+    <Login>
+      <p>hello</p>
+    </Login>
     </>
   )
 }
