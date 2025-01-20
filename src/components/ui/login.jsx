@@ -7,11 +7,12 @@ import patternCircle from "../../../assets/images/pattern-circle.svg";
 import patternLines from "../../../assets/images/pattern-lines.svg";
 import patternSquigleTop from "../../../assets/images/pattern-squiggly-line-top.svg";
 import patternSquigleBot from "../../../assets/images/pattern-squiggly-line-bottom.svg";
+import fullLogo from '../../../assets/images/logo-full.svg'
 
 const Login = () => {
   return (
     <div
-      className="w-screen h-[1100px] flex flex-col items-center justify-center"
+      className="w-screen h-[1100px] flex flex-col items-center justify-start"
       style={{ backgroundImage: `url(${bgImage})`, backgroundSize: "cover" }}
     >
       <div className="absolute right-[16rem] bottom-[22.25rem]">
@@ -28,6 +29,9 @@ const Login = () => {
       </div>
       <div className="absolute bottom-0 left-0">
         <img src={patternSquigleBot} alt="meow" />
+      </div>
+      <div className="relative flex items-center justify-center">
+        <h1 className="text-white font-[Inconsolata] font-extrabold text-5xl text-center">Your Journey to Coding Conf<br></br> 2025 Starts Here!</h1>
       </div>
     </div>
 

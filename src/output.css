@@ -592,6 +592,10 @@ video {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -652,6 +656,56 @@ video {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-\[Inconsolata\] {
+  font-family: Inconsolata;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
