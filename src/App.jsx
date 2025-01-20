@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import Background from './components/ui/background.jsx'
+
 import './output.css'
 import {
   ColorModeButton,
@@ -15,7 +17,9 @@ function App() {
   const {toggleColorMode} = useColorMode()
   return (
     <>
-    <Login/>
+    <Background>
+ 
+    </Background>
     </>
   )
 }
