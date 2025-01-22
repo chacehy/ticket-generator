@@ -11,20 +11,19 @@ import fullLogo from "../../../assets/images/logo-full.svg";
 
 const Login = () => {
   return (
-    <>
-
-        <div className="relative flex items-center justify-center mt-10 mb-16">
-          <img src={fullLogo} alt="" />
-        </div>
-        <div className="relative flex items-center justify-center flex-col">
-          <h1 className="text-white font-[Inconsolata] font-extrabold text-6xl text-center">
-            Your Journey to Coding Conf<br></br> 2025 Starts Here!
-          </h1>
-          <p className="text-white pt-6 font-[Inconsolata] text-2xl text-opacity-60">
-            secure your spot at the next year's biggest coding conference.
-          </p>
-        </div>
-    </>
+    <div className="container">
+      <div className="relative flex items-center justify-center mt-10 mb-16">
+        <img src={fullLogo} alt="" />
+      </div>
+      <div className="relative flex items-center justify-center flex-col">
+        <h1 className="text-white font-[Inconsolata] font-extrabold text-6xl text-center">
+          Your Journey to Coding Conf<br></br> 2025 Starts Here!
+        </h1>
+        <p className="text-white pt-6 font-[Inconsolata] text-2xl text-opacity-60">
+          secure your spot at the next year's biggest coding conference.
+        </p>
+      </div>
+    </div>
   );
 };
 
