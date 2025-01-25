@@ -22,6 +22,7 @@ const Login = () => {
         <p className="text-white pt-6 font-[Inconsolata] text-2xl text-opacity-60">
           secure your spot at the next year's biggest coding conference.
         </p>
+        <Form/>
       </div>
     </div>
   );

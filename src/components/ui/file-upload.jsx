@@ -32,13 +32,14 @@ export const FileUploadRoot = React.forwardRef(
   },
 )
 
+import uploadIcon from '../../../assets/images/icon-upload.svg'
 export const FileUploadDropzone = React.forwardRef(
   function FileUploadDropzone(props, ref) {
     const { children, label, description, ...rest } = props
     return (
       <ChakraFileUpload.Dropzone ref={ref} {...rest}>
-        <Icon fontSize='xl' color='fg.muted'>
-          <LuUpload />
+        <Icon fontSize='xl' w='50px' backgroundColor='gray.400/20' border='dashed' borderWidth='2px' borderColor='gray.200/20' borderRadius='xl' >
+          <img src={uploadIcon} alt="meow"/>
         </Icon>
         <ChakraFileUpload.DropzoneContent>
           <div>{label}</div>
